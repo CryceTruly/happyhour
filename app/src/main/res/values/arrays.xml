@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="timezone">
+        <item>Pacific Standard Time</item>
+        <item>ASEAN Common Time</item>
+        <item>Atlantic Standard Time</item>
+        <item>China Standard Time</item>
+        <item>Eastern Standard Time </item>
+        <item>Greenwich Mean Time</item>
+        <item>Iran Standard Time</item>
+        <item>Middle European Time</item>
+        <item>Malaysia Time</item>
+        <item>Western European Time</item>
+    </string-array>
+
+    <string-array name="shop_category_title">
+        <item>Drinks and Food</item>
+        <item>Drinks and Party</item>
+        <item>Gadgets and Computers</item>
+        <item>Fashion</item>
+        <item>Beauty and Health</item>
+        <item>Babies and Kids</item>
+        <item>Home and Garden</item>
+
+        <item>Sports and Hobby</item>
+        <item>Ticket and Voucher</item>
+        <item>Service and Food</item>
+    </string-array>
+</resources>
