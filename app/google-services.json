@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "800142203783",
+    "firebase_url": "https://happyhour-bb438.firebaseio.com",
+    "project_id": "happyhour-bb438",
+    "storage_bucket": "happyhour-bb438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800142203783:android:2390dcf485dd741e",
+        "android_client_info": {
+          "package_name": "com.crycetruly.happyhour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800142203783-m083dv6gmsg3gqed0kbj47r68vrb0kvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crycetruly.happyhour",
+            "certificate_hash": "fa32dca7754f7fe37011f1a11866e6298725bdc8"
+          }
+        },
+        {
+          "client_id": "800142203783-5lsoekaeiu859cejid790htmab79ad1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crycetruly.happyhour",
+            "certificate_hash": "a638a5b8f6c32ac03fa69c8425e6941da64d3b16"
+          }
+        },
+        {
+          "client_id": "800142203783-42dmq78aia26f4ff5f3cdj2rutuqs3cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTN4AG45S0-iZxqs0H08eQDoT_xn9dbzM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800142203783-42dmq78aia26f4ff5f3cdj2rutuqs3cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

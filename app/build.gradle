@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.crycetruly.happyhour"
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 1
+        multiDexEnabled true
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.0.2'
+    implementation 'com.android.support:support-v4:27.0.2'
+    //compile 'com.github.Shashank02051997:FancyAlertDialog-Android:0.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.android.gms:play-services-places:11.8.0'
+    implementation 'com.google.android.gms:play-services-location:11.8.0'
+    implementation 'com.google.android.gms:play-services-maps:11.8.0'
+    // implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+    // FirebaseUI for Cloud Firestore
+    implementation 'com.firebaseui:firebase-ui-firestore:3.2.2'
+    implementation 'com.firebaseui:firebase-ui-database:3.2.2'
+    compile 'com.github.florent37:viewtooltip:1.1.5'
+    // FirebaseUI for Firebase Auth
+    implementation 'com.firebaseui:firebase-ui-auth:3.2.2'
+    // FirebaseUI for Cloud Storage
+    implementation 'com.firebaseui:firebase-ui-storage:3.2.2'
+    compile 'com.android.support:multidex:1.0.1'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'com.balysv:material-ripple:1.0.2'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    // image loader
+    compile 'com.wdullaer:materialdatetimepicker:3.2.0'
+    // google gson --------------------------------------------------------------------------------
+    compile 'com.google.code.gson:gson:2.8.1'
+
+    //geofire
+
+    compile 'com.firebase:geofire-android:2.3.1'
+}
+
+
+apply plugin: 'com.google.gms.google-services'
