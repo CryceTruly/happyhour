@@ -230,7 +230,7 @@ if (has==1) {
 
         // section warranty
         bt_toggle_warranty = (ImageButton) findViewById(R.id.bt_toggle_warranty);
-        lyt_expand_warranty = (View) findViewById(R.id.lyt_expand_warranty);
+        lyt_expand_warranty = (View) findViewById(R.id.bt_toggle_warranty);
         bt_toggle_warranty.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
